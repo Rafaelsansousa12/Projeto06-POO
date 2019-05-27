@@ -12,6 +12,20 @@
         <title>JSP Page</title>
     </head>
     <body>
-        <h1>Hello World!</h1>
+        <h1>HOME</h1>
+        
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav ml-auto"> 
+                
+                
+                <li class="nav-item">
+                    <a class="btn btn-outline-success ml-2 my-2 my-sm-0" href="alunos.jsp">Alunos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="btn btn-outline-success ml-2 my-2 my-sm-0" href="adicionar_aluno.jsp">Adicionar Aluno</a>
+                </li>
+                
+            </ul>
+        </div> 
     </body>
 </html>
